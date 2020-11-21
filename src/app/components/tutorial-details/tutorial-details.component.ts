@@ -36,7 +36,7 @@ export class TutorialDetailsComponent implements OnInit {
   updatePublished(status): void {
     const data = {
       title: this.currentTutorial.title,
-      description: this.currentTutorial.description,
+      descripcion: this.currentTutorial.descripcion,
       published: status
     };
 
